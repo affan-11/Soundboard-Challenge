@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Akshar";
+    background-color: rgb(200, 122, 211);
+    
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;  
+}
+
+#header {
+    display: flex;
+    padding-top: 20px ;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: "Akshar";
+    justify-content: center;
+}
+
+.gif {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display:flex;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: solid blue 3px; */
+}
+
+.button {
+    display: flex;
+    padding: 20px;
+    
+}
